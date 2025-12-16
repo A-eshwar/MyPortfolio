@@ -385,7 +385,7 @@ const Section = ({ id, title, children }: { id: string; title: string; children:
 
 const Card = ({ title, text, children }: { title?: string; text?: string; children?: React.ReactNode }) => (
   <div className="bg-card p-6 rounded-xl shadow-card hover:shadow-card-hover hover:-translate-y-2 transition-all duration-300 text-center">
-    {title && <h4 className="font-semibold mb-2">{title}</h4>}
+    {title && <h4 className="font-semibold mb-2 text-primary">{title}</h4>}
     {text && <p className="text-muted-foreground text-sm">{text}</p>}
     {children}
   </div>
