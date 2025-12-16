@@ -49,7 +49,10 @@ export default {
         },
         gold: "hsl(var(--gold))",
         emerald: "hsl(var(--emerald))",
-        sidebar: {
+        blue: {
+          DEFAULT: "hsl(var(--blue))",
+          glow: "hsl(var(--blue-glow))",
+        },
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
           primary: "hsl(var(--sidebar-primary))",

@@ -378,7 +378,7 @@ export default function Index() {
 
 const Section = ({ id, title, children }: { id: string; title: string; children: React.ReactNode }) => (
   <section id={id} className="max-w-6xl mx-auto px-8 py-24">
-    <h3 className="animate-on-scroll text-3xl font-bold text-primary mb-12 text-center">{title}</h3>
+    <h3 className="animate-on-scroll text-3xl font-bold text-primary mb-12 text-center section-title-glow">{title}</h3>
     <div className="animate-on-scroll">{children}</div>
   </section>
 );
