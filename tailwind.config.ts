@@ -53,6 +53,7 @@ export default {
           DEFAULT: "hsl(var(--blue))",
           glow: "hsl(var(--blue-glow))",
         },
+        sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
           primary: "hsl(var(--sidebar-primary))",
